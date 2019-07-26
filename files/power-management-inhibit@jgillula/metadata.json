@@ -1,0 +1,6 @@
+{
+    "uuid": "power-management-inhibit@jgillula",
+    "name": "Power Management Inhibit",
+    "icon": "preferences-desktop-screensaver",
+    "description": "An applet that can be clicked to toggle power management (like the screensaver), enables shortcut keys for toggling power management, as well as show you when other apps are inhibiting power management."
+}

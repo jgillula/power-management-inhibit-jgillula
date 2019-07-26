@@ -1,0 +1,98 @@
+{
+    "head" : {
+        "type" : "header",
+        "description" : "Icons"
+    },
+    "use_custom_power_management_allowed_icon": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use a custom icon for when power management is allowed.",
+        "indent": false
+    },
+    "power_management_allowed_icon": {
+        "type": "iconfilechooser",
+        "default" : "power-management-allowed-symbolic",
+        "description" : "Power management allowed icon:",
+        "tooltip" : "Select an icon file, or you can type an icon name into the entry box",
+        "indent" : true,
+        "dependency" : "use_custom_power_management_allowed_icon"
+    },
+    "use_custom_power_management_inhibited_by_applet_icon": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use a custom icon for when power management is inhibited by this applet.",
+        "indent": false
+    },
+    "power_management_inhibited_by_applet_icon": {
+        "type": "iconfilechooser",
+        "default" : "power-management-inhibited-by-applet-symbolic",
+        "description" : "Power management inhibited (by this applet) icon:",
+        "tooltip" : "Select an icon file, or you can type an icon name into the entry box",
+        "indent" : true,
+        "dependency": "use_custom_power_management_inhibited_by_applet_icon"
+    },
+    "use_custom_power_management_inhibited_by_other_icon": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use a custom icon for when power management is inhibited by another program.",
+        "indent": false
+    },
+    "power_management_inhibited_by_other_icon": {
+        "type": "iconfilechooser",
+        "default" : "power-management-inhibited-by-other-symbolic",
+        "description" : "Power management inhibited (by another program) icon:",
+        "tooltip" : "Select an icon file, or you can type an icon name into the entry box",
+        "indent" : true,
+        "dependency": "use_custom_power_management_inhibited_by_other_icon"
+    },
+    "use_custom_power_management_inhibited_by_both_icon": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use a custom icon for when power management is inhibited by this applet and another program.",
+        "indent": false
+    },
+    "power_management_inhibited_by_both_icon": {
+        "type": "iconfilechooser",
+        "default" : "power-management-inhibited-by-both-symbolic",
+        "description" : "Power management inhibited (by this applet and another program) icon:",
+        "tooltip" : "Select an icon file, or you can type an icon name into the entry box",
+        "indent" : true,
+        "dependency": "use_custom_power_management_inhibited_by_both_icon"
+    },
+    "use_custom_power_management_unknown_icon": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use a custom icon for when the power management status is unknown.",
+        "indent": false
+    },
+    "power_management_unknown_icon": {
+        "type": "iconfilechooser",
+        "default" : "power-management-unknown-symbolic",
+        "description" : "Power management status unknown icon:",
+        "tooltip" : "Select an icon file, or you can type an icon name into the entry box",
+        "indent" : true,
+        "dependency": "use_custom_power_management_unknown_icon"
+    },
+    "head1" : {
+        "type" : "header",
+        "description" : "Keybindings"
+    },
+    "toggle_keybinding" : {
+        "type" : "keybinding",
+        "description" : "Set the keybinding for toggling power management",
+        "default" : "<Shift><Control><Alt>'",
+        "indent": true
+    },
+    "allow_keybinding" : {
+        "type" : "keybinding",
+        "description" : "Set the keybinding for allowing power management",
+        "default" : "",
+        "indent": true
+    },
+    "inhibit_keybinding" : {
+        "type" : "keybinding",
+        "description" : "Set the keybinding for inhibiting power management",
+        "default" : "",
+        "indent": true
+    }
+}
